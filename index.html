@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Login Metamask</h1>
+    </header>
+
+
+
+    <br>
+    <div id="LoginForm">
+        <button onclick="loginMetamask()">Login</button>
+        <h1>Wallet: <span id="userWallet"></span></h1>
+    </div>
+
+
+   
+
+
+    <div id="Saldos">
+        <button onclick="attBalance()">Atualizar Saldo</button>
+        <h2>USDT: <span id="usdtBalance"></span></h2>
+        <h2>Fragmentos: <span id="fragBalance"></span></h2>
+        <h2>NFTS:<br><span id="nftBalance">      
+            <!--
+                <div id="nft">
+            <img src="images/mage.jpg" alt="nftImage" id="nftImage">
+            <h1 id="owner">Owned By</h1>
+            <h1 id="nftId">Id</h1>
+            <h1 id="nftName">Name</h1>
+            <h1 id="nftStatus">Status</h1>
+            </div>
+
+            -->
+        </span></h2>
+    </div>
+
+
+    <br>
+    <div id="BonusForm">
+        <h1>Ganhe 100 fragmentos Gratis!</h1>
+        <h1>Fragmentos disponinveis <span id="fragDispSpan"></span></h1>
+        <button onclick="getBonus()">Clique aqui!</button>
+    </div>
+
+    <br>
+    <div id="MintForm">
+        <h1>Voce pode mintar uma NFT com 100 Fragmentos!</h1>
+        <button onclick="mint()">Mint</button>
+        <br><br>
+
+
+        
+        
+
+
+    </div>
+
+
+    <script src="JS/Metamask.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+</body>
+</html>
