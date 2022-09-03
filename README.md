@@ -1,5 +1,5 @@
 # Sistema-de-MarketPlace
-Não esta finalizado ainda, porem ao inves de usar o protocolo ERC721 estou criando meu proprio sistema de criação e comercialização de nfts
+Não esta finalizado ainda, estou criando meu proprio sistema de criação e comercialização de nfts
 
 
 Para testar voce precisa:
